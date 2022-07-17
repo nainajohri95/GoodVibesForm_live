@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Vibes Form</title>
+    <link rel="stylesheet" href="./goodvibes.css">
+  </head>
+  <body>
+    <h1>Good Vibes Form</h1>
+    <div class="container">
+      <h3>Tell us something positive that happened to you today.</h3><br>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label" id="name"
+          >Name</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your name"
+        />
+      </div><br>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label" id="email"
+          >Email</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your email address"
+        />
+      </div><br>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >On asacle of 1-10,how good was it?</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter a no. between 1&10"
+        />
+      </div><br>
+
+      Where did it happen? 
+      <select name="" id="select">
+        <option disabled selected>Select</option>
+        <option value="At home">At home</option>
+        <option value="At office">At office</option>
+        <option value="Others">Others</option>
+      </select>
+      
+      <p>At what time of day did it happen?</p> 
+
+      <input type="radio" id="Morning" name="fav_language" value="Morning" />
+      <label for="Morning">Morning</label><br/>
+
+      <input
+        type="radio"
+        id="Afternoon"
+        name="fav_language"
+        value="Afternoon"
+      />
+      <label for="Afternoon">Afternoon</label><br />
+
+      <input type="radio" id="Evening" name="fav_language" value="Evening" />
+      <label for="Evening">Evening</label>
+
+      <p>What emotions did you experience?<br>(select all that apply)</p>
+
+        <div class="emotion">
+        <input type="checkbox" id="Excited" name="Excited"value="Excited" />
+        <label for="Excited">Excited</label><br />
+
+        <input type="checkbox" id="Humble" name="Humble"value="Humble" />
+        <label for="Humble">Humble</label><br />
+
+        <input type="checkbox" id="Elated" name="Elated"value="Elated" />
+        <label for="Elated">Elated</label><br />
+
+        <input type="checkbox" id="Loved" name="Loved"value="Loved" />
+        <label for="Loved">Loved</label><br />
+
+        <input type="checkbox" id="Enthusiatic" name="Enthusiatic" value="Enthusiatic" />
+        <label for="Enthusiatic">Enthusiatic</label><br />
+      </div>
+
+      
+      
+        <span class="input-group-text" id="inputGroup-sizing-lg">Please describe your positive experience</span>
+        <input type="text" class="form-control"placeholder="Enter your experience here..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        <br>
+        <div class="btn">
+          <button class="btn btn-primary" type="button">Sumbit</button>
+        </div>
+      
+    </div>
+  </body>
+</html>
